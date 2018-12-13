@@ -1,0 +1,70 @@
+.navbar-inner, .toolbar-inner{
+	background-color: #735e5d;
+}
+
+.bg-white{
+	background-color: #9b7977;
+}
+
+.bg-panel{
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.bottom {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bg-panel img{
+  margin: 0 auto;
+  display: block;
+}
+
+.lista-menu .list{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.lista-menu .item-title{
+  font-weight: 500;
+}
+
+.lista-menu .item-media{
+  color: #666;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.home .card{
+	border-radius: 0px;
+}
+.home .card-header{
+	padding: 0;
+}
+.home .card-content{
+	padding: 10px 0;
+}
+.home .card-footer::before{
+	background-color: transparent;
+}
